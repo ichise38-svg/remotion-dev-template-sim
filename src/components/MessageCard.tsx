@@ -25,7 +25,7 @@ export const MessageCard: React.FC<MessageCardProps> = ({
 				width: 900,
 				borderRadius: 26,
 				overflow: 'hidden',
-				border: '8px solid #2B2B2B',
+				border: '20px solid #2B2B2B',
 				fontFamily: japaneseFontFamily,
 			}}
 		>
