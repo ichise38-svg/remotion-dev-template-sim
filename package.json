@@ -1,30 +1,21 @@
 {
-  "name": "template-helloworld",
+  "name": "tsuushin-review-reel",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "private": true,
   "scripts": {
-    "dev": "remotion studio",
-    "build": "remotion bundle",
-    "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "start": "remotion studio",
+    "build": "remotion render TsuushinReview out/tsuushin-review.mp4",
+    "upgrade": "remotion upgrade"
   },
-  "repository": {},
-  "license": "UNLICENSED",
   "dependencies": {
-    "@remotion/cli": "^4.0.0",
-    "@remotion/zod-types": "^4.0.0",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "remotion": "^4.0.0",
-    "zod": "4.4.3"
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.518",
+    "@remotion/cli": "4.0.518",
+    "@remotion/google-fonts": "4.0.518"
   },
   "devDependencies": {
-    "@remotion/eslint-config-flat": "^4.0.0",
-    "@types/react": "19.2.7",
-    "@types/web": "0.0.166",
-    "eslint": "9.19.0",
-    "prettier": "3.8.1",
-    "typescript": "5.9.3"
-  },
-  "private": true
+    "@types/react": "18.3.5",
+    "typescript": "5.5.4"
+  }
 }
