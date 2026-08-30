@@ -32,7 +32,7 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({
 				width: 980,
 				borderRadius: 26,
 				overflow: 'hidden',
-				boxShadow: '0 14px 40px rgba(0,0,0,0.25)',
+				boxShadow: '0 24px 60px rgba(0,0,0,0.45), 0 0 0 3px rgba(0,0,0,0.06)',
 				fontFamily: japaneseFontFamily,
 			}}
 		>
