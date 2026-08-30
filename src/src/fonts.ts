@@ -1,6 +1,0 @@
-import {loadFont} from '@remotion/google-fonts/NotoSansJP';
-
-export const {fontFamily: japaneseFontFamily} = loadFont('normal', {
-	weights: ['400', '500', '700', '900'],
-	subsets: ['japanese'],
-});
