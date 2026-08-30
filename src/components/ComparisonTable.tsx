@@ -33,7 +33,7 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({
 				boxSizing: 'border-box',
 				borderRadius: 26,
 				overflow: 'hidden',
-				border: '8px solid #2B2B2B',
+				border: '20px solid #2B2B2B',
 				fontFamily: japaneseFontFamily,
 			}}
 		>
