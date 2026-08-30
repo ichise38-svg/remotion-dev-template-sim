@@ -28,7 +28,7 @@ export const Video: React.FC = () => {
 	const suggestionCtaFrom = cursor;
 
 	return (
-		<AbsoluteFill style={{backgroundColor: 'transparent'}}>
+		<AbsoluteFill style={{backgroundColor: '#FF00FF'}}>
 			{/* ここに背景動画レイヤーを追加する想定
 			    例: <OffthreadVideo src={staticFile('bg.mp4')} style={{position:'absolute', width:'100%', height:'100%', objectFit:'cover'}} /> */}
 
